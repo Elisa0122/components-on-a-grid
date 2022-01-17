@@ -1,5 +1,9 @@
 html {
   box-sizing: border-box;
+  font-family: Georgia, serif;
+  background-color: #f2f1ed;
+  line-height: 1.5;
+  font-size: 1rem;
 }
 
 *,
