@@ -8,6 +8,19 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "header header"
+    "header header"
+    "main main";
+  gap: 1rem;
+  margin: 0;
+  padding: 1rem;
+}
+
 img {
   width: 100%;
 }
